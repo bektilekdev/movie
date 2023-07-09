@@ -1,0 +1,17 @@
+#actors-info{
+  padding: 40px  0 0 0;
+  .container{
+    .actors-info{
+      display: flex;
+      img{
+        width: 300px;
+        height: 450px;
+        border-radius: 10px;
+        border: 1px solid #032541;
+      }
+      &--title{
+        padding-left: 20px;
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+#home{
+  background: url("../../img/movie.jpg") no-repeat center/cover;
+  min-height: 50vh;
+.home{
+  width: 90%;
+  margin: 0 auto;
+  .home_nav{
+    h1{
+      color: white;
+      font-weight: 700;
+      font-size: 40px;
+      margin: 0 0  0 0;
+    }
+    p{
+      font-size: 25px;
+      font-weight: 600;
+      color: white;
+      margin: 0 0 60px 0;
+    }
+    input{
+     width: 1140px;
+      height: 35px;
+      border-radius:30px ;
+      border: none;
+      outline: none;
+      padding-left: 14px;
+    }
+    button{
+      height: 37px;
+      width: 90px;
+      border-radius: 30px;
+      border: none;
+      background: #4f4fe7;
+      position: absolute;
+      top: 231.5px;
+      right: 60px;
+      color: #fff
+    }
+}
+}
+}

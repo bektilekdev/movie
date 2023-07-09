@@ -1,0 +1,27 @@
+#block{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  .top_block{
+    background: #032541;
+    padding: 5px;
+    margin: 7px;
+    border-radius: 10px;
+    width: 210px;
+    text-align: center;
+    .top_img{
+      width: 200px;
+    }
+    .top_title{
+      width: 200px;
+      color: white;
+      text-align: center;
+      font-size: 12px;
+    }
+    .top_data{
+      text-align:center;
+      color: white;
+      font-size: 12px;
+    }
+  }
+}
