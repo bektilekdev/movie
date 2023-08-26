@@ -1,15 +1,16 @@
 #home{
   background: url("../../img/movie.jpg") no-repeat center/cover;
-  min-height: 50vh;
+  min-height: 70vh;
 .home{
   width: 90%;
   margin: 0 auto;
   .home_nav{
+    padding: 90px 0;
     h1{
       color: white;
       font-weight: 700;
       font-size: 40px;
-      margin: 0 0  0 0;
+      margin: 0 0  8px 0;
     }
     p{
       font-size: 25px;
@@ -18,22 +19,22 @@
       margin: 0 0 60px 0;
     }
     input{
-     width: 1140px;
-      height: 35px;
+     width: 1640px;
+      height: 40px;
       border-radius:30px ;
       border: none;
       outline: none;
       padding-left: 14px;
     }
     button{
-      height: 37px;
+      height: 43px;
       width: 90px;
       border-radius: 30px;
       border: none;
       background: #4f4fe7;
       position: absolute;
-      top: 231.5px;
-      right: 60px;
+      top: 313px;
+      right: 80px;
       color: #fff
     }
 }

@@ -1,10 +1,11 @@
 #details{
-  box-shadow: 900px 0 0 400px rgba(0, 0, 0, 0.82) inset ;
+  box-shadow: 800px 0 0 500px rgba(0, 0, 0, 0.82) inset ;
   .details{
     display: flex;
     align-items:flex-start;
+    justify-content: start;
     img{
-      padding: 30px;
+      padding: 20px 0 0 0;
       border-radius: 50px;
     }
     &--group{

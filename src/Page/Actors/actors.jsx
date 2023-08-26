@@ -24,7 +24,7 @@ const Actors = () => {
     const settings = {
         dots: false,
         infinite: true,
-        slidesToShow: 6,
+        slidesToShow: 8,
         slidesToScroll: 1,
         autoplay: true,
         speed: 3000,

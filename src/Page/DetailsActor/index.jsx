@@ -1,22 +1,23 @@
-import React, {useEffect, useState} from 'react';
+import React, {useContext, useEffect, useState} from 'react';
 import {useParams} from "react-router-dom";
 import axios from "axios";
 import {API_KEY} from "../../API/API";
 import ActorMovie from "../ActorMovie/ActorMovie";
-import Trailer from "../../components/Trailer";
+import { LanguageContext } from '../../context';
 
 const DetailsActor = () => {
     const [detailsActor,setDetailsActor] = useState({})
     const {actorId} = useParams()
+    const {language} = useContext(LanguageContext)
 
     const getDetailsActor = () =>{
-        axios(`https://api.themoviedb.org/3/person/${actorId}?api_key=${API_KEY}&language=en-US`)
+        axios(`https://api.themoviedb.org/3/person/${actorId}?api_key=${API_KEY}&language=${language}`)
             .then(res => setDetailsActor(res.data))
     }
 
     useEffect(()=>{
         getDetailsActor()
-    },[])
+    },[language])
 
 
     return (
@@ -31,7 +32,6 @@ const DetailsActor = () => {
                         </div>
                     </div>
                     <ActorMovie/>
-                    <Trailer/>
                 </div>
             </div>
     );

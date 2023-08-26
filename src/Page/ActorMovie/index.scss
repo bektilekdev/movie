@@ -1,18 +1,22 @@
-#actorMovie{
-  .actorMovie{
-    .block{
+#actorMovie {
+  .actorMovie {
+    .block {
       width: 100px;
-      height: 350px;
-        img{
-          width: 200px;
-          height: 250px;
-        }
-      h2{
-        color: white;
+      height: 150px;
+      text-align: center;
+
+      img {
+        width: 100px;
+        height: 150px;
+      }
+
+      h2 {
+        // color: white;
         font-size: 16px;
       }
-      h3{
-        color: white;
+
+      h3 {
+        // color: white;
         font-size: 12px;
       }
     }
