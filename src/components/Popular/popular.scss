@@ -1,28 +1,36 @@
-.bloc{
+#block {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
 
-}
-  .block{
+  button {
+    width: 50px;
+    height: 50px;
+  }
+
+  .top_block {
     background: #032541;
     padding: 5px;
     margin: 7px;
     border-radius: 10px;
-    width: 210px;
+    // width: 30px;
     text-align: center;
 
-    .popular_img{
+    .top_img {
       width: 200px;
     }
-    .popular_title{
+
+    .top_title {
       width: 200px;
-      color: white;
+      color: hsl(0, 0%, 100%);
       text-align: center;
       font-size: 12px;
     }
-    .popular_data{
+
+    .top_data {
       text-align: center;
       color: white;
       font-size: 12px;
     }
   }
+}

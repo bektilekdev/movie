@@ -1,55 +1,82 @@
-.header{
+.header {
   display: flex;
-  justify-content:space-around;
+  justify-content: space-around;
   background: rgb(3, 37, 65);
   top: 0;
   position: sticky;
   z-index: 99;
-  //background: rgba(255, 255, 255, 0.35);
-  .header_nav{
+
+  button {
+    width: 50px;
+    height: 50px;
+    margin: 15px 0;
+    background: none;
+    color: white;
+    border: none;
+  }
+
+  .header_nav {
     color: #0a0af1;
     display: flex;
     justify-content: space-between;
     align-items: center;
     text-decoration: none;
-    .line{
+
+    .line {
       width: 60px;
       height: 17px;
-      border-radius:10px ;
+      border-radius: 10px;
       background: #9292e1;
       margin-left: 5px;
     }
   }
-  .nav{
+
+  .nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 300px;
     padding: 10px;
-    li{
-      color:white;
-      list-style:none;
+
+    li {
+      color: white;
+      list-style: none;
       text-decoration: none;
     }
   }
-  .add{
+
+  .add {
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
     margin: 0 10px;
-    select{
-      margin: 0 15px;
-      border: none;
+
+    select {
+      margin: 0 55px;
       outline: none;
-      background: none;
-      color: white;
+      background: wheat;
+      color: rgb(14, 2, 2);
+      border: none;
+      font: inherit;
+      border-radius: 7px;
     }
-    input{
+
+    input {
       border-radius: 7px;
       outline: none;
       border: 2px solid white;
+      padding: 6px 14px;
+      caret-color: red;
     }
 
+    button {
+      width: 50px;
+      height: 30px;
+      background: red;
+      border: none;
+      border-radius: 7px;
+      margin: 10px;
+    }
   }
 }
