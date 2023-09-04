@@ -1,5 +1,7 @@
 import React, { useContext, useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import React, {useContext, useEffect, useState} from 'react';
+import {useParams} from "react-router-dom";
 import axios from "axios";
 import { API_KEY } from "../../API/API";
 import ActorMovie from "../ActorMovie/ActorMovie";
@@ -44,10 +46,8 @@ const DetailsActor = () => {
       </div>
     </div>
   );
+
 };
 
 export default DetailsActor;
 
-// https://www.themoviedb.org/t/p/w600_and_h900_bestv2
-
-//https://api.themoviedb.org/3/person/$%7BmovieId%7D?api_key=$%7BAPIKEY%7D&language=en-US

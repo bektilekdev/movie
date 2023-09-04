@@ -1,6 +1,8 @@
 import React from "react";
 import "./home.scss";
 import HomePopular from "../../Page/HomePopular";
+import React from 'react';
+import './home.scss';
 const Home = () => {
     
   return (
